@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: '#333333', color: '#ffffff' }} className="py-3">
+    <footer style={{ backgroundColor: '#333333', color: '#ffffff' }} className="py-1">
       <div className='container'>
         <div className='row'>
           {/* Travel Theme Section */}
@@ -36,6 +36,7 @@ const Footer = () => {
 
           {/* Copyright Section */}
           <div className='col-md-4 text-center mb-3'>
+            <p></p>
             <p className='mb-0'>
               &copy; {new Date().getFullYear()} Chamodi Chethana. All rights reserved.
             </p>
