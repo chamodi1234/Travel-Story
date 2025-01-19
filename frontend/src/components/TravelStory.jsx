@@ -189,14 +189,14 @@ const TravelStory = () => {
                   alt={story.title}
                   className="card-img-top"
                   style={{
-                    height: '200px',
+                    height: '350px',
                     objectFit: 'cover',
                   }}
                 />
                 <div className="card-body d-flex flex-column">
                   <h5 className="card-title text-center">{story.title}</h5>
                   <p className="card-text text-center">{story.description}</p>
-                  <p className="text-white text-center">({story.author})</p>
+                 {/* <p className="text-white text-center">({story.author})</p>*/}
                   <div className="d-flex justify-content-between mt-auto">
                   <button
   className="btn btn-lg"

@@ -71,7 +71,7 @@ const StoriesPage = () => {
                     alt={story.title}
                     className="card-img-top"
                     style={{
-                      height: '200px',
+                      height: '350px',
                       objectFit: 'cover',
                     }}
                     onClick={() => handleImageClick(story)}
@@ -81,7 +81,7 @@ const StoriesPage = () => {
                     <p className="card-text text-center text-truncate">
                       {story.description}
                     </p>
-                    <p className="text-white text-center">({story.author})</p>
+                   {/* <p className="text-white text-center">({story.author})</p>*/}
                   </div>
                 </div>
               </div>
@@ -119,7 +119,7 @@ const StoriesPage = () => {
                     }}
                   />
                   <p>{selectedStory.description}</p>
-                  <p className="text-white">Author: {selectedStory.author}</p>
+                  {/*<p className="text-white">Author: {selectedStory.author}</p>*/}
                 </div>
                 <div className="modal-footer d-flex justify-content-center w-100">
   <button

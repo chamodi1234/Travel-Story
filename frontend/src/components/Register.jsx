@@ -50,7 +50,7 @@ const Register = () => {
     return (
         <div
             style={{
-                backgroundImage: 'url(/images/register.avif)',
+                backgroundImage: 'url(/images/register.jpg)',
                 backgroundSize: 'cover',
                 backgroundPosition: 'center',
                 minHeight: '100vh',
