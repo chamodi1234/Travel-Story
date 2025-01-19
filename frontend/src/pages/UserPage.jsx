@@ -10,7 +10,7 @@ const UserPage = () => {
 
   useEffect(() => {
     const storedEmail = localStorage.getItem('userEmail');
-    console.log('Stored Email:', storedEmail); 
+ 
     if (storedEmail) {
       setEmail(storedEmail);
     }

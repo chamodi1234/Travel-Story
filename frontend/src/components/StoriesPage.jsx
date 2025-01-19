@@ -39,7 +39,7 @@ const StoriesPage = () => {
     fontFamily: "'Roboto Slab', serif", 
     fontWeight: '700', 
     fontStyle: 'italic', 
-    color: '#333', 
+    color: 'white', 
     textShadow: '2px 2px 4px rgba(0, 0, 0, 0.1)' // Optional text shadow for effect
   }}
 >

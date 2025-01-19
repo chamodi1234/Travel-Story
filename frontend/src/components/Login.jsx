@@ -19,7 +19,7 @@ const Login = () => {
 
         if (form.email && form.password) {
             try {
-                console.log("Submitting form:", form); 
+               
                 const response = await axios.post(
                     "http://localhost:5000/api/userRoutes/login",
                     form
@@ -28,12 +28,8 @@ const Login = () => {
                 console.log("Login response:", response.data); 
 
                 if (response.status === 200) {
-                    
-                    if (form.email === "admin@gmail.com") {
-                        navigate("/admin"); 
-                    } else {
-                        navigate("/user"); 
-                    }
+                    // Navigate to the user page after successful login
+                    navigate("/user"); 
                 }
             } catch (error) {
                 console.error("Error during login:", error.response?.data || error.message);
